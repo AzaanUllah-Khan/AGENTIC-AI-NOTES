@@ -11,3 +11,9 @@
 - As python is a high level programming language it cannot be directly executed by the compter as computer only understands machine code (0s and 1s). Translator is used to convert this high level language to machine readable code.
 - When code is run a virtual environment/machine is created which itself understands the code before dividing them into packets (called byte)
 - Created our first code `print("Hello World!")`
+
+`Tasks`
+
+- Create github, X/Twitter, and Linkedin Accounts
+- Create hello World program and publish a post about it on linkedin
+- Study about google colab (Overview)

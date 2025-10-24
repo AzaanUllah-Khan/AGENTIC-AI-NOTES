@@ -1,9 +1,9 @@
-### Agentic AI Batch 02 • Instructor: [Sir Shah Meer](https://github.com/shahmeersensei)
+### Agentic AI
 
-Here’s what you’ll find in my repo:
+What I've added in my repo:
 
 - Key takeaways from each class
-- Concepts we explored.
+- Concepts I explored.
 - Tasks, projects, and assignments
 
 ### Notes

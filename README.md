@@ -8,7 +8,7 @@ Here’s what you’ll find in my repo:
 
 ### Notes
 
-- [`Class 01`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2001/Class%2001)
+- [`Class 01`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2001/Class%2001.md)
 - [`Class 02`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2002/Class%2002.md)
 
 

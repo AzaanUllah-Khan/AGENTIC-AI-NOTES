@@ -14,3 +14,12 @@
 - Casting `Example agr = int("10"). This will give 10 not "10"`
 - Assigning Multiple Variables `Example: a,b,c = "Azaan","Ali","Khan"`
 - Variable naming conventions
+  - Can't start with numbers and cannot contain hyphen
+  - Case sensitive
+  - Can't use a reserve keyword
+  - It can contain letters, number and underscore
+  - Can only have letter and underscore in starting
+- Writing Conventions
+  - camelCase
+  - PascalCase
+  - snake_case

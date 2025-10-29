@@ -10,5 +10,5 @@
   - Number / Integer
   - Floating Point
 - Output (Text and Numbers) `Example: print("hello"); print(10)`
+- type( )
 - Casting `Example agr = int("10"). This will give 10 not "10"`
-- type()

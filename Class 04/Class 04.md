@@ -28,3 +28,14 @@
   - Global Variables `Assigned outside a function - can be used everywhere`
 - Variable Hosting `Cannot be called before declaring`
 - Function Hosting `Can be called anywhere. Even before defining`
+- List `eg: Fruits = ["Apple","Banana","Cherry"]`
+- Tuple `eg: Fruits = ("Apple", "Banana", "Cherry")`
+- Set `eg: Fruits = {"Apple", "Banana", "Cherry"}`
+- Dictionary `eg: Fruit = {"name":"Apple", "color":"red"}`
+
+| Type         | Changeable | Allows Duplicates | Key-Value Pairs |
+|---------------|-------------|------------------|----------------|
+| **List**      | ✅ Changeable | ✅ Allows duplicate elements | ❌ No |
+| **Tuple**     | ❌ Unchangeable | ✅ Allows duplicate elements | ❌ No |
+| **Set**       | ✅ Changeable | ❌ Doesn’t allow duplicate elements | ❌ No |
+| **Dictionary**| ✅ Changeable | ❌ Doesn’t allow duplicate keys | ✅ Yes |

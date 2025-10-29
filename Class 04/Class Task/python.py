@@ -41,3 +41,8 @@ Attendance = {
     "age" : 16,
     "skills" : ["HTML","CSS","JS"]
 }
+
+print("List",Students)
+print("Tuple",Teachers)
+print("Set",Visitor) #Removes the repeating element
+print("Dictionary",Attendance)

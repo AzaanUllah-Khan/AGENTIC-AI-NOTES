@@ -31,3 +31,13 @@ Students = ["Azaan","Ali","Ahmed"]
 
 #Tuple
 Teachers = ("Rizwan","Shahmeer","Iqbal")
+
+#Set
+Visitor = {"Azaan","Ahmed","Ibad","Ahmed"}
+
+#Dictionary
+Attendance = {
+    "name":"Azaan",
+    "age" : 16,
+    "skills" : ["HTML","CSS","JS"]
+}

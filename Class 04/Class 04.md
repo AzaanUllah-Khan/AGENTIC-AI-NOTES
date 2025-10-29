@@ -10,3 +10,5 @@
   - Number / Integer
   - Floating Point
 - Output (Text and Numbers) `Example: print("hello"); print(10)`
+- Casting
+- typeOf

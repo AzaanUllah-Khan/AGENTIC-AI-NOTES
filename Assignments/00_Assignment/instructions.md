@@ -16,7 +16,7 @@ Store your **name**, **age**, and **hobby** in variables.
 
 **Example Output:**
 ```
-Hi, I’m Abdullah. I’m 19 years old and I love coding.
+Hi, I’m Azaan. I’m 16 years old and I love cricket.
 ```
 
 ### Assignment 3: Temperature Converter
@@ -113,8 +113,8 @@ Print both **original list** and **set**.
 ### Assignment 1: Student Info
 student = {"name": "Ali", "age": 20, "grade": "A"}
 
+**Print:**
 ```
-Print:
 Ali is 20 years old and got grade A.
 ```
 

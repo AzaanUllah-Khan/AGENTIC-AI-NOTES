@@ -13,6 +13,9 @@ What I've added in my repo:
 - [`Class 03`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2003/Class%2003.md)
 - [`Class 04`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2004/Class%2004.md)
 
+### Assignments
+
+- [`Click Here`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/tree/main/Assignments/)
 
 I’m sharing my notes publicly so others can learn along the way too.
 If this helps or interests you, do me a favor

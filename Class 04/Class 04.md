@@ -33,9 +33,9 @@
 - Set `eg: Fruits = {"Apple", "Banana", "Cherry"}`
 - Dictionary `eg: Fruit = {"name":"Apple", "color":"red"}`
 
-| Type         | Changeable | Allows Duplicates | Key-Value Pairs |
-|---------------|-------------|------------------|----------------|
-| **List**      | ✅ Changeable | ✅ Allows duplicate elements | ❌ No |
-| **Tuple**     | ❌ Unchangeable | ✅ Allows duplicate elements | ❌ No |
-| **Set**       | ✅ Changeable | ❌ Doesn’t allow duplicate elements | ❌ No |
-| **Dictionary**| ✅ Changeable | ❌ Doesn’t allow duplicate keys | ✅ Yes |
+| Type         | Ordered | Changeable | Allows Duplicates | Key-Value Pairs |
+|---------------|-------------|------------------|----------------|----------|
+| **List**      | ✅ Ordered | ✅ Changeable | ✅ Allows duplicate elements | ❌ No |
+| **Tuple**     | ✅ Ordered | ❌ Unchangeable | ✅ Allows duplicate elements | ❌ No |
+| **Set**       | ❌ Unordered | ✅ Changeable | ❌ Doesn’t allow duplicate elements | ❌ No |
+| **Dictionary**| ✅ Ordered |✅ Changeable | ❌ Doesn’t allow duplicate keys | ✅ Yes |

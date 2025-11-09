@@ -26,8 +26,6 @@
 - Scope Of Variables
   - Local Variables `Can only be used within a function`
   - Global Variables `Assigned outside a function - can be used everywhere`
-- Variable Hosting `Cannot be called before declaring`
-- Function Hosting `Can be called anywhere. Even before defining`
 - List `eg: Fruits = ["Apple","Banana","Cherry"]`
 - Tuple `eg: Fruits = ("Apple", "Banana", "Cherry")`
 - Set `eg: Fruits = {"Apple", "Banana", "Cherry"}`

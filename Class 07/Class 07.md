@@ -17,12 +17,10 @@
 
 ### Class Notes
 
-- Git & GitHub Basics
+`Installation Of Git`
+- [Click Here to Install Git](https://git-scm.com/install/windows)
 
-`Installation`
-- [Install Git](https://git-scm.com/install/windows)
-
-`Key Differences`
+`Key Differences b/w Git and Github`
 - **Git** → Version control system (hosted locally)  
 - **GitHub** → Cloud-based hosting platform for Git repositories  
 

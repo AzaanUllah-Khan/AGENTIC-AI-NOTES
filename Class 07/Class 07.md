@@ -1,46 +1,44 @@
-## 🚀 Roadmap
+### Roadmap
 
-### 🧩 Backend & Databases
+`Backend & Databases`
 - FastAPI  
 - PostgreSQL  
 - MySQL  
 
-### 🤖 AI Concepts
+`AI Concepts`
 - AI Prompt Engineering  
 - Prompt Engineering  
 - Context Engineering  
 
-### ⚙️ Automation & Tools
+`Automation & Tools`
 - N8N  
 - Agent Kit  
 - OpenAI SDK  
 
----
+### Class Notes
 
-## 📘 Class Notes
+- Git & GitHub Basics
 
-### 🧾 Git & GitHub Basics
-
-#### Installation
+`Installation`
 - [Install Git](https://git-scm.com/install/windows)
 
-#### Key Differences
+`Key Differences`
 - **Git** → Version control system (hosted locally)  
 - **GitHub** → Cloud-based hosting platform for Git repositories  
 
-#### GitHub Overview
+`GitHub Overview`
 - **Repositories**  
 - **README.md**  
 - **Overview Section**
 
-#### 🔗 Linking Git with GitHub
+`Linking Git with GitHub`
 
 ```bash
 git config --global user.name "[your-username]"
 git config --global user.email "[your-email]"
 ````
 
-#### 📥 Cloning a Repository
+`Cloning a Repository`
 
 ```bash
 git clone "[repository-url]"
@@ -48,14 +46,12 @@ git clone "[repository-url]"
 
 > Get the repo URL from the **Code** button and copy the HTTPS link.
 
-#### 🧩 Assignment
+`Assignment`
 
 1. Download and install Git
 2. Create a GitHub profile
 3. Create a `README.md` file
 4. Create a repository named **agentic-ai**
-
----
 
 ### Functions in Python
 

@@ -14,6 +14,7 @@ What I've added in my repo:
 - [`Class 04`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2004/Class%2004.md)
 - [`Class 05`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2005/Class%2005.md)
 - [`Class 06`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2006/Class%2006.md)
+- [`Class 07`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2007/Class%2007.md)
 
 ### Assignments
 

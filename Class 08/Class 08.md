@@ -1,12 +1,11 @@
 `Topics`
 
-- List
-- Tuples
-- Sets
-- Dictionary
+* List
+* Tuples
+* Sets
+* Dictionary
 
-___
-
+---
 
 `Notes`
 
@@ -20,135 +19,405 @@ ___
 mylist = ["apple", "banana", "cherry"]
 ```
 
-
 > List items are ordered, changeable, and allow duplicate values.
-___
+
+---
 
 > List items are indexed, the first item has index [0], the second item has index [1] etc.
-- To determine how many items a list has, use the `len()` function
+
+* To determine how many items a list has, use the `len()` function
+
 ```python
 print(len(this_list))
 ```
-___
 
-- List items are indexed and you can access them by referring to the index number
+---
+
+* List items are indexed and you can access them by referring to the index number
+
 ```python
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1])
 ```
-___
 
-- You can specify a range of indexes by specifying where to start and where to end the range.
-``` python
+---
+
+* You can specify a range of indexes by specifying where to start and end the range.
+
+```python
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
 ```
-> This print elements of 2nd 3rd and 4th index
-___
 
-- To determine if a specified item is present in a list use the `in` keyword
+> This prints elements of index 2, 3, and 4
+
+---
+
+* To determine if a specified item is present, use the `in` keyword
+
 ```python
 thislist = ["apple", "banana", "cherry"]
 if "apple" in thislist:
   print("Yes, 'apple' is in the fruits list")
 ```
-___
 
-- To change the value of a specific item, refer to the index number
+---
+
+* To change a specific item, refer to the index number
+
 ```python
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 ```
-> This replaces banana with blackcurrant
-___
 
-- To add an item to the end of the list, use the `append()` method
+---
+
+* Add item to end using `append()`
+
 ```python
-thislist = ["apple", "banana", "cherry"]
 thislist.append("orange")
 ```
-> This adds orange to the last of the list
-___
 
-- To insert a list item at a specified index, use the `insert()` method.
+---
+
+* Insert at a specific index using `insert()`
+
 ```python
-thislist = ["apple", "banana", "cherry"]
 thislist.insert(1, "orange")
 ```
-> Adds Orange at index 1
-___
 
-- To append elements from another list to the current list, use the `extend()` method.
-> The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).
-___
+---
 
-- The remove() method removes the specified item.
+* Extend a list using `extend()`
+
+* Remove an item using `remove()`
+
 ```python
-thislist = ["apple", "banana", "cherry"]
 thislist.remove("banana")
 ```
-> If there are more than one item with the specified value, the remove() method removes the first occurrence
-___
 
-- The pop() method removes the specified index
+---
+
+* Remove using index with `pop()`
+
 ```python
-thislist = ["apple", "banana", "cherry"]
 thislist.pop(1)
 ```
-> This removes the second element ie: banana
-___
 
-- The del keyword also removes the specified index
+---
+
+* Delete using `del` keyword
+
 ```python
-thislist = ["apple", "banana", "cherry"]
 del thislist[0]
 ```
-- The del keyword can also delete the list completely.
+
+---
+
+* Clear list using `clear()`
 
 ```python
-thislist = ["apple", "banana", "cherry"]
-del thislist
-```
-___
-
-- The `clear()` method empties the list.
-
-```python
-thislist = ["apple", "banana", "cherry"]
 thislist.clear()
 ```
-___
 
-- You can loop through the list items by using a `for` loop
+---
+
+* Loop through list using `for` loop
+
 ```python
-thislist = ["apple", "banana", "cherry"]
 for x in thislist:
   print(x)
 ```
-___
 
-- List comprehension offers a **shorter syntax** when you want to create a new list based on the values of an existing list.
-___
-
-- List objects have a `sort()` method that will sort the list alphanumerically, ascending, by default
-> By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters
-___
-
-- The reverse() method reverses the current sorting order of the elements.
-___
+---
 
 ### List Methods
 
-| Method     | Description                                                                 |
-|------------|-----------------------------------------------------------------------------|
-| append()   | Adds an element at the end of the list                                      |
-| clear()    | Removes all the elements from the list                                      |
-| copy()     | Returns a copy of the list                                                  |
-| count()    | Returns the number of elements with the specified value                     |
-| extend()   | Adds the elements of another list (or iterable) to the end of the list      |
-| index()    | Returns the index of the first element with the specified value             |
-| insert()   | Adds an element at the specified position                                   |
-| pop()      | Removes the element at the specified position                               |
-| remove()   | Removes the item with the specified value                                   |
-| reverse()  | Reverses the order of the list                                              |
-| sort()     | Sorts the list                                                              |
+| Method    | Description                                                     |
+| --------- | --------------------------------------------------------------- |
+| append()  | Adds an element at the end of the list                          |
+| clear()   | Removes all the elements from the list                          |
+| copy()    | Returns a copy of the list                                      |
+| count()   | Returns the number of elements with the specified value         |
+| extend()  | Adds the elements of another iterable to the end of the list    |
+| index()   | Returns the index of the first element with the specified value |
+| insert()  | Adds an element at the specified position                       |
+| pop()     | Removes the element at the specified position                   |
+| remove()  | Removes the item with the specified value                       |
+| reverse() | Reverses the order of the list                                  |
+| sort()    | Sorts the list                                                  |
+
+---
+
+### Tuples
+
+**Definition:** Tuples are used to store multiple items in a single variable. They are similar to lists but **unchangeable**.
+
+**Example:**
+
+```python
+mytuple = ("apple", "banana", "cherry")
+```
+
+> Tuple items are ordered, unchangeable, and allow duplicates.
+
+---
+
+* Tuples are indexed like lists
+
+```python
+print(mytuple[1])
+```
+
+---
+
+* Tuples allow slicing
+
+```python
+print(mytuple[1:3])
+```
+
+---
+
+* Check if an item exists in a tuple
+
+```python
+if "apple" in mytuple:
+  print("Yes")
+```
+
+---
+
+* Tuples cannot be changed, but you can convert them to lists and back
+
+```python
+y = list(mytuple)
+y.append("orange")
+mytuple = tuple(y)
+```
+
+---
+
+* Loop through tuples
+
+```python
+for x in mytuple:
+  print(x)
+```
+
+---
+
+### Tuple Methods
+
+| Method  | Description                             |
+| ------- | --------------------------------------- |
+| count() | Returns number of times a value appears |
+| index() | Returns index of first occurrence       |
+
+---
+
+### Sets
+
+**Definition:** Sets are used to store multiple items in a single variable. Sets are **unordered**, **unindexed**, and **do not allow duplicates**.
+
+**Example:**
+
+```python
+myset = {"apple", "banana", "cherry"}
+```
+
+> Items cannot be accessed using index numbers.
+
+---
+
+* Add items using `add()`
+
+```python
+myset.add("orange")
+```
+
+---
+
+* Add multiple items using `update()`
+
+```python
+myset.update(["mango", "grapes"])
+```
+
+---
+
+* Remove an item using `remove()`
+
+```python
+myset.remove("banana")
+```
+
+> Raises error if item doesn't exist.
+
+---
+
+* Remove item using `discard()` (no error raised)
+
+```python
+myset.discard("banana")
+```
+
+---
+
+* Remove last item using `pop()`
+
+```python
+myset.pop()
+```
+
+---
+
+* Clear a set
+
+```python
+myset.clear()
+```
+
+---
+
+* Loop through a set
+
+```python
+for x in myset:
+  print(x)
+```
+
+---
+
+* Perform set operations: union, intersection, difference
+
+```python
+set1.union(set2)
+set1.intersection(set2)
+set1.difference(set2)
+```
+
+---
+
+### Set Methods
+
+| Method         | Description                                |
+| -------------- | ------------------------------------------ |
+| add()          | Adds an element to the set                 |
+| clear()        | Removes all elements                       |
+| copy()         | Returns a copy of the set                  |
+| difference()   | Returns the difference of two sets         |
+| discard()      | Removes specified item if present          |
+| intersection() | Returns items that exist in both sets      |
+| isdisjoint()   | Returns True if no items in common         |
+| issubset()     | Returns True if set is subset              |
+| issuperset()   | Returns True if set is superset            |
+| pop()          | Removes a random item                      |
+| remove()       | Removes specified item                     |
+| union()        | Returns the union of sets                  |
+| update()       | Adds elements from another set or iterable |
+
+---
+
+### Dictionary
+
+**Definition:** Dictionaries store data in **key: value** pairs. They are **ordered**, **changeable**, and do not allow duplicate keys.
+
+**Example:**
+
+```python
+mydict = {
+  "name": "John",
+  "age": 25,
+  "city": "Lahore"
+}
+```
+
+---
+
+* Access items by key
+
+```python
+print(mydict["name"])
+```
+
+---
+
+* Get all keys
+
+```python
+print(mydict.keys())
+```
+
+---
+
+* Get all values
+
+```python
+print(mydict.values())
+```
+
+---
+
+* Change a value
+
+```python
+mydict["age"] = 30
+```
+
+---
+
+* Add a new key-value pair
+
+```python
+mydict["country"] = "Pakistan"
+```
+
+---
+
+* Remove item using `pop()`
+
+```python
+mydict.pop("age")
+```
+
+---
+
+* Remove last inserted item using `popitem()`
+
+```python
+mydict.popitem()
+```
+
+---
+
+* Loop through keys, values, items
+
+```python
+for x in mydict:
+  print(x)
+
+for v in mydict.values():
+  print(v)
+
+for k, v in mydict.items():
+  print(k, v)
+```
+
+---
+
+### Dictionary Methods
+
+| Method       | Description                                            |
+| ------------ | ------------------------------------------------------ |
+| clear()      | Removes all the elements                               |
+| copy()       | Returns a copy                                         |
+| fromkeys()   | Returns dict with specified keys and default value     |
+| get()        | Returns value of specified key                         |
+| items()      | Returns list of tuples (key, value)                    |
+| keys()       | Returns list of keys                                   |
+| pop()        | Removes item with specified key                        |
+| popitem()    | Removes the last inserted key-value pair               |
+| setdefault() | Returns value of key; inserts if not present           |
+| update()     | Updates dictionary with another dictionary or iterable |
+| values()     | Returns list of values                                 |

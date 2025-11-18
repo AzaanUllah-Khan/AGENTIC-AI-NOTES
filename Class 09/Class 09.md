@@ -9,4 +9,7 @@
 - datetime
 - pow
 - PIP
-- Python Modules
+
+`Assignment`
+
+- Get know-how about Python Modules

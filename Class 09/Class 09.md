@@ -1,9 +1,12 @@
 `Topics`
 
 - JSON
-- Diff b/w obj and jsonn
-- json methods
+- Difference b/w Object and JSON
+
+`Self Learn`
+
+- JSON methods
 - datetime
 - pow
 - PIP
-- python modules
+- Python Modules

@@ -30,7 +30,7 @@ def greeting(name):
   print("hello",name)
 ```
 
-# Use A  Module
+### Use a  Module
 - To use a module we have to use `import` keyword
 
 ```python

@@ -1,21 +1,3 @@
-`Topics`
-
-- JSON
-- Difference b/w Object and JSON
-
-`Self Learn`
-
-- JSON methods
-- datetime
-- pow
-- PIP
-
-`Assignment`
-
-- Get know-how about Python Modules
-
-------
-
 `Python Modules`
 
 ### What is a Module:
@@ -30,11 +12,29 @@ def greeting(name):
   print("hello",name)
 ```
 
-### Use a  Module
+### Use a  Module :
 - To use a module we have to use `import` keyword
 
 ```python
 import mymodule #module file name
 
 mymodule.greeting("Azaan")
+```
+
+### Variables in Module :
+- Variables can also contain variables of all types along with function
+
+```python
+person1 = {
+  "name": "Azaan",
+  "age": 16
+}
+```
+
+- Use with Variables
+
+```python
+import mymodule #module file name
+
+print(mymodule.person1["name"])
 ```

@@ -38,3 +38,19 @@ import mymodule #module file name
 
 print(mymodule.person1["name"])
 ```
+
+### Rename a Module
+
+```python
+import mymodule as mx
+
+print(mx.person1["age"])
+```
+
+### Using dir() Function
+
+`Will complete once I understand it correctly`
+
+### Import from Module
+
+`To be completed`

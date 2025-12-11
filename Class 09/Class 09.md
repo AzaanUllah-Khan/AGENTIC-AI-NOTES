@@ -49,7 +49,16 @@ print(mx.person1["age"])
 
 ### Using dir() Function
 
-`Will complete once I understand it correctly`
+- List all the defined names belonging to the platform module
+
+```python
+import platform
+
+x = dir(platform)
+print(x)
+```
+
+> The `dir()` function can be used on all modules, also the ones you create yourself.
 
 ### Import from Module
 

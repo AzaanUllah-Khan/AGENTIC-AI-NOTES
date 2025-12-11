@@ -62,4 +62,8 @@ print(x)
 
 ### Import from Module
 
-`To be completed`
+- You can choose to import only parts from a module, by using the `from` keyword.
+
+```python
+from mymodule import person1 #only imports a specific part
+```

@@ -43,3 +43,12 @@ c1 = myClass()
 c2 = myClass()
 c3 = myClass()
 ```
+
+**Pass Statement**
+
+- We can create empty classes (without any content) using pass statement
+
+```python
+class myEmpty:
+  pass
+```

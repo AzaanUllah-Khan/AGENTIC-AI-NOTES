@@ -52,3 +52,92 @@ c3 = myClass()
 class myEmpty:
   pass
 ```
+
+**__init__() Method**
+
+- `__init__()` is a **special method** that runs **when an object is created**.  
+- It initializes properties for the new object. :contentReference[oaicite:4]{index=4}
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+p1 = Person("John", 36)
+print(p1.name, p1.age)
+```
+
+**self Parameter**
+
+- `self` refers to the **current object instance** inside class methods.  
+- It must be the **first parameter** in instance methods.
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name     # self links property to the object
+        self.age = age
+
+    def greet(self):
+        print("Hello, my name is " + self.name)
+
+p1 = Person("Emil", 25)
+p1.greet()
+```
+
+**Class Properties vs Instance Properties**
+
+- **Class properties** are defined **outside methods** and shared across all objects.  
+- **Instance properties** are set inside `__init__()` and are unique to each object.
+
+```python
+class Person:
+    species = "Human"  # class property
+
+    def __init__(self, name):
+        self.name = name  # instance property
+
+p1 = Person("Emil")
+print(p1.name, p1.species)
+```
+
+**Class Methods (Normal Methods)**
+
+- Methods are **functions inside a class** that define behavior. They always take `self` as the first argument.
+
+```python
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print("Hello, " + self.name)
+
+p1 = Person("Tobias")
+p1.greet()
+``` 
+
+**Methods With Parameters**
+- You can pass parameters to methods *just like regular functions*.
+
+```python
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+calc = Calculator()
+print(calc.add(5, 3))
+```
+
+## Summary
+
+| Topic | Key Idea |
+|-------|----------|
+| **Class** | Blueprint for objects. |
+| **Object** | Instance of a class. |
+| **`__init__()`** | Runs when object is created. |
+| **`self`** | Refers to the current object. |
+| **Class Property** | Shared across all objects. |
+| **Instance Property** | Unique per object. |
+| **Class/Instance Methods** | Functions inside a class. |

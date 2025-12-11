@@ -25,3 +25,21 @@ class myClass:
 c1 = myClass()
 print(c1.x)
 ```
+
+**Delete Objects**
+
+- We can delete objects using the `del` keyword
+
+```python
+del c1
+```
+
+**Create Multiple Objects**
+
+- We can create multiple objects from the same class
+
+```python
+c1 = myClass()
+c2 = myClass()
+c3 = myClass()
+```

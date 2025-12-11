@@ -76,7 +76,7 @@ print(p1.name, p1.age)
 ```python
 class Person:
     def __init__(self, name, age):
-        self.name = name     # self links property to the object
+        self.name = name # self links property to the object
         self.age = age
 
     def greet(self):
@@ -93,10 +93,10 @@ p1.greet()
 
 ```python
 class Person:
-    species = "Human"  # class property
+    species = "Human" # class property
 
     def __init__(self, name):
-        self.name = name  # instance property
+        self.name = name # instance property
 
 p1 = Person("Emil")
 print(p1.name, p1.species)
@@ -136,8 +136,8 @@ print(calc.add(5, 3))
 |-------|----------|
 | **Class** | Blueprint for objects. |
 | **Object** | Instance of a class. |
-| **`__init__()`** | Runs when object is created. |
-| **`self`** | Refers to the current object. |
+| **__init__()** | Runs when object is created. |
+| **self** | Refers to the current object. |
 | **Class Property** | Shared across all objects. |
 | **Instance Property** | Unique per object. |
 | **Class/Instance Methods** | Functions inside a class. |

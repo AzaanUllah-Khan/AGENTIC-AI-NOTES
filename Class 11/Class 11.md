@@ -2,7 +2,7 @@
 
 `Inheritance • Encapsulation • Polymorphism • Abstraction`
 
-### 1️⃣ Inheritance
+### Inheritance
 
 `What is Inheritance?`
 
@@ -47,9 +47,9 @@ Honda
 
 > Child automatically got `car` from `Parent`.
 
-## 2️⃣ Encapsulation
+### Encapsulation
 
-### What is Encapsulation?
+`What is Encapsulation?`
 
 Encapsulation means **wrapping data and methods together** and **hiding sensitive data**.
 
@@ -57,26 +57,20 @@ In Python, it is done using:
 
 * `__` (double underscore) → **Private data**
 
----
+`Real-Life Example`
 
-### Real-Life Example
-
-🔐 **ATM Machine**
+**ATM Machine**
 
 * You can withdraw money
 * You cannot see or change the PIN logic
 
----
-
-### Why Encapsulation?
+`Why Encapsulation?`
 
 * Protects data
 * Prevents misuse
 * Improves security
 
----
-
-### Example (Without Encapsulation)
+`Example` (Without Encapsulation)
 
 ```python
 class Account:
@@ -86,27 +80,23 @@ a = Account()
 print(a.password)
 ```
 
-❌ Anyone can access the password.
+> Anyone can access the password.
 
----
-
-### Example (With Encapsulation)
+`Example` (With Encapsulation)
 
 ```python
 class Account:
     __password = 1234
 ```
 
-➡️ `__password` is private
-➡️ Cannot be accessed directly
+> `__password` is private
+> Cannot be accessed directly
 
 ---
 
-### Key Point (Exam Ready)
+`Key Point`
 
 **Encapsulation** is used to hide data and control access to variables.
-
----
 
 ## 3️⃣ Polymorphism
 

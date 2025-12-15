@@ -2,6 +2,8 @@
 
 `Inheritance • Encapsulation • Polymorphism • Abstraction`
 
+---
+
 ### Inheritance
 
 `What is Inheritance?`
@@ -46,6 +48,8 @@ Honda
 ```
 
 > Child automatically got `car` from `Parent`.
+
+---
 
 ### Encapsulation
 
@@ -95,6 +99,8 @@ class Account:
 `Key Point`
 
 **Encapsulation** is used to hide data and control access to variables.
+
+---
 
 ### Polymorphism
 
@@ -155,6 +161,8 @@ print(add("Hello ", "World"))
 
 **Polymorphism** allows methods to perform different tasks using the same name.
 
+---
+
 ### Abstraction
 
 `What is Abstraction?`
@@ -199,6 +207,8 @@ sendMessage()
 `Key Point`
 
 **Abstraction** hides unnecessary details and shows only essential features.
+
+---
 
 ### Final Revision Table
 

@@ -1,42 +1,32 @@
-# Class 11 – OOP (Object-Oriented Programming) Core Concepts
+### OOP (Object-Oriented Programming)
 
-## Inheritance • Encapsulation • Polymorphism • Abstraction
+`Inheritance • Encapsulation • Polymorphism • Abstraction`
 
-*Crash course • Simple English • Real-life examples • Easy revision*
+### 1️⃣ Inheritance
 
----
-
-## 1️⃣ Inheritance
-
-### What is Inheritance?
+`What is Inheritance?`
 
 **Inheritance** means one class **gets the properties and methods** of another class.
 
 * Class being inherited from → **Parent / Base class**
 * Class that inherits → **Child / Derived class**
 
-👉 Helps in **code reuse** and avoids writing the same code again.
+> Helps in **code reuse** and avoids writing the same code again.
 
----
-
-### Real-Life Example
+`Real-Life Example`
 
 👨 Father → 👦 Son
 
 * Son inherits father’s surname
 * Son may also inherit habits, property, etc.
 
----
-
-### Why We Use Inheritance?
+`Why We Use Inheritance?`
 
 * Reusability of code
 * Cleaner and shorter programs
 * Easy to manage large programs
 
----
-
-### Code Example
+`Code Example`
 
 ```python
 class Parent:
@@ -55,24 +45,7 @@ print(c.car)
 Honda
 ```
 
-➡️ Child automatically got `car` from `Parent`.
-
----
-
-### Types of Inheritance (Class 11 Level)
-
-**🔹 Single Inheritance** — One child inherits one parent.
-
-```python
-class Animal:
-    def sound(self):
-        print("Animal makes sound")
-
-class Dog(Animal):
-    pass
-```
-
----
+> Child automatically got `car` from `Parent`.
 
 ## 2️⃣ Encapsulation
 

@@ -92,26 +92,22 @@ class Account:
 > `__password` is private
 > Cannot be accessed directly
 
----
-
 `Key Point`
 
 **Encapsulation** is used to hide data and control access to variables.
 
-## 3️⃣ Polymorphism
+### Polymorphism
 
-### What is Polymorphism?
+`What is Polymorphism?`
 
 **Polymorphism** means:
 
 * *One thing, many forms*
 * Same function or method name behaves differently in different situations
 
----
+`Real-Life Example`
 
-### Real-Life Example
-
-👤 A person:
+A person:
 
 * Student in school
 * Son at home
@@ -119,9 +115,7 @@ class Account:
 
 Same person, different roles.
 
----
-
-### Polymorphism Example in Python
+`Polymorphism Example in Python`
 
 **Same function, different objects**
 
@@ -137,11 +131,9 @@ print(len([1, 2, 3, 4]))
 4
 ```
 
-➡️ `len()` works differently for strings and lists.
+> `len()` works differently for strings and lists.
 
----
-
-### Another Example
+`Another Example`
 
 ```python
 def add(a, b):
@@ -151,27 +143,21 @@ print(add(2, 3))
 print(add("Hello ", "World"))
 ```
 
-➡️ Same function, different behavior.
+> Same function, different behavior.
 
----
-
-### Why Polymorphism?
+`Why Polymorphism?`
 
 * Flexible code
 * Easy to extend programs
 * Less complexity
 
----
-
-### Exam Line
+`Key Point`
 
 **Polymorphism** allows methods to perform different tasks using the same name.
 
----
+### Abstraction
 
-## 4️⃣ Abstraction
-
-### What is Abstraction?
+`What is Abstraction?`
 
 Abstraction means:
 
@@ -180,26 +166,20 @@ Abstraction means:
 
 User knows **what to do**, not **how it works**.
 
----
+`Real-Life Example`
 
-### Real-Life Example
-
-🚗 **Driving a car**
+**Driving a car**
 
 * Press accelerator → Car moves
 * You don’t know engine logic
 
----
-
-### Why Abstraction?
+`Why Abstraction?`
 
 * Reduces complexity
 * Makes code user-friendly
 * Focuses on functionality
 
----
-
-### Conceptual Code Example
+`Conceptual Code Example`
 
 ```python
 def sendMessage():
@@ -208,25 +188,19 @@ def sendMessage():
 sendMessage()
 ```
 
-➡️ User only calls the function
-➡️ Internal logic is hidden
+> User only calls the function
+> Internal logic is hidden
 
----
-
-### Abstraction in OOP (Idea Level – Class 11)
+`Abstraction in OOP`
 
 * User uses methods
 * Programmer hides complex logic inside classes
 
----
-
-### Exam Line
+`Key Point`
 
 **Abstraction** hides unnecessary details and shows only essential features.
 
----
-
-## 🔁 Final Revision Table
+### Final Revision Table
 
 | Concept       | Meaning                               | Real-Life Example      |
 | ------------- | ------------------------------------- | ---------------------- |
@@ -234,9 +208,3 @@ sendMessage()
 | Encapsulation | Hiding data                           | ATM PIN                |
 | Polymorphism  | One thing, many forms                 | One person, many roles |
 | Abstraction   | Hide internal logic                   | Driving a car          |
-
----
-
-## 📝 One-Paragraph Exam Answer (Bonus)
-
-Object-Oriented Programming uses concepts like inheritance, encapsulation, polymorphism, and abstraction. Inheritance allows one class to acquire properties of another. Encapsulation protects data by hiding it. Polymorphism allows methods to behave differently in different situations. Abstraction hides internal details and shows only necessary features.

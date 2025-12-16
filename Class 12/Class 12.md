@@ -45,19 +45,19 @@ It is commonly used for:
 
 A typical application consists of three main parts:
 
-### Frontend
+- ### Frontend
 
 * User interface (UI)
 * Technologies: HTML, CSS, JavaScript, React, etc.
 * Sends requests to the backend
 
-### Backend
+- ### Backend
 
 * Business logic
 * Handles requests & responses
 * Built using FastAPI (Python)
 
-### Database
+- ### Database
 
 * Stores data
 * Examples: MySQL, PostgreSQL, MongoDB
@@ -66,17 +66,17 @@ A typical application consists of three main parts:
 
 To work with FastAPI, we need the following:
 
-### Python
+- ### Python
 
 FastAPI is built on **Python**, so Python must be installed.
 
-### Uvicorn
+- ### Uvicorn
 
 * Acts as a **web server**
 * Similar to how **Node.js** runs JavaScript servers
 * Responsible for running FastAPI applications
 
-### Pydantic
+- ### Pydantic
 
 * A library for **type safety & data validation**
 * Ensures incoming data matches expected formats

@@ -54,7 +54,7 @@ Same route, **different endpoints**.
 
 `API Methods (What Action to Perform)`
 
-> GET - POST - PUT - DELETE ARE EXPLAINED IN [`Class 15`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2015/Class%2015.md)
+> GET - POST - PUT - DELETE ARE EXPLAINED IN [`CLASS 15`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2015/Class%2015.md)
 
 ---
 

@@ -56,6 +56,8 @@ Same route, **different endpoints**.
 
 > GET - POST - PUT - DELETE ARE EXPLAINED IN [`Class 15`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2015/Class%2015.md)
 
+---
+
 `PATCH – Update Part of Data`
 
 ### What it does
@@ -110,3 +112,36 @@ fetch("https://example.com/users")
 ```
 
 > This fetches data from an API using GET by default.
+
+---
+
+`Python Equivalent of Fetch`
+
+In Python, we don’t have fetch(), but we use the `requests` library to call APIs.
+
+### Installation
+
+Before using it, install requests via pip:
+
+```cmd
+pip install requests
+```
+
+### Basic GET Request Example
+
+```python
+import requests
+
+response = requests.get(url)
+json = response.json()
+
+print(json)
+```
+
+### Key Notes
+
+requests.get() → Fetch data
+requests.post() → Send new data
+requests.put() → Replace data
+requests.patch() → Update partial data
+requests.delete() → Delete data

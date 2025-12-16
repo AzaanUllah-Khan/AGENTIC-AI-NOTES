@@ -1,58 +1,54 @@
 `What You’ll Learn`
 
-- This class teaches you how modern developers work with AI, version control, and deployment tools.
-- By the end, you’ll be able to:
-  - Talk to AI properly using prompts
-  - Understand Git vs GitHub
-  - Use basic Git commands
-  - Deploy a website using Vercel
-  - Clone a website using AI prompts
+This class teaches you how modern developers work with AI, version control, and deployment tools.
+By the end, you’ll be able to:
+- Talk to AI properly using prompts
+- Understand Git vs GitHub
+- Use basic Git commands
+- Deploy a website using Vercel
+- Clone a website using AI prompts
 
 ### Notes
 
 `Prompt Engineering (Talking to AI Properly)`
 
-- ### What is a Prompt?
+### What is a Prompt?
 
 A prompt is the instruction you give to AI.
 
-`❌ Bad Prompt`
-
+Bad Prompt
 ```
 Make a website
 ```
 
-`✅ Good Prompt`
-
+Good Prompt
 ```
 Create a responsive landing page using HTML and CSS for a fitness app with a hero section, features, and CTA button.
 ```
 
-- ### Prompt Best Practices
+### Prompt Best Practices
 
-  -   Be Clear
-  -   Tell AI exactly what you want.
+- Be Clear
+- Tell AI exactly what you want.
 
- - ### Give Context
+### Give Context
 
-    - Explain who you are and what you need.
-    
-    - `Example:`
-      ```
-      You are a frontend developer. Create a simple portfolio website for a beginner student.
-      ```
-    
-- ### Break Big Tasks into Small Ones
+- Explain who you are and what you need.    
+- `Example:
+```
+You are a frontend developer. Create a simple portfolio website for a beginner student.
+```
 
-    - AI works best step-by-step.
+### Break Big Tasks into Small Ones
 
-    - Instead of:
-    - `Build Netflix clone`
+AI works best step-by-step.
+Instead of:
+- `Build Netflix clone`
 
-    - Do:
-      - `Create homepage layout`
-      - `Add movie cards`
-      - `Style using CSS`
+Do:
+- `Create homepage layout`
+- `Add movie cards`
+- `Style using CSS`
 
 ---
 

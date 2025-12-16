@@ -140,8 +140,8 @@ print(json)
 
 ### Key Notes
 
-requests.get() → Fetch data
-requests.post() → Send new data
-requests.put() → Replace data
-requests.patch() → Update partial data
-requests.delete() → Delete data
+- requests.get() → Fetch data
+- requests.post() → Send new data
+- requests.put() → Replace data
+- requests.patch() → Update partial data
+- requests.delete() → Delete data

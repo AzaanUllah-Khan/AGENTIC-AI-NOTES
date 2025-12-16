@@ -160,5 +160,5 @@ Think of CSS as the **skin and styling of the skeleton**.
 
 - ### FreeCodeCamp Certifications
 
-* **Responsive Web Design Certification** (HTML & CSS)
-* **Python Certification** (parallel task)
+  * **Responsive Web Design Certification** (HTML & CSS)
+  * **Python Certification** (parallel task)

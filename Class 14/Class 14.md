@@ -64,6 +64,8 @@ Think of HTML as the **skeleton of a website**.
 
   * `header`, `nav`, `section`, `article`, `footer`
   * Importance of accessibility & SEO
+ 
+ ---
 
 `What is CSS?`
 
@@ -83,60 +85,60 @@ Think of CSS as the **skin and styling of the skeleton**.
 
 - ### CSS Basics
 
- * Selectors
- * Properties & values
- * Inline, internal, external CSS
+  * Selectors
+  * Properties & values
+  * Inline, internal, external CSS
 
 - ### Box Model
 
- * Margin
- * Padding
- * Border
- * Content
+  * Margin
+  * Padding
+  * Border
+  * Content
 
 - ### Typography
 
- * Fonts
- * Font sizes
- * Line height
- * Text alignment
+  * Fonts
+  * Font sizes
+  * Line height
+  * Text alignment
 
 - ### Colors & Backgrounds
 
- * Color formats (HEX, RGB)
- * Background images & gradients
+  * Color formats (HEX, RGB)
+  * Background images & gradients
 
 `Layout & Positioning`
 
 - ### Display Properties
 
- * Block vs inline
- * Inline-block
- * None
+  * Block vs inline
+  * Inline-block
+  * None
 
 - ### Flexbox
 
- * Flex container & items
- * Alignment & spacing
- * Common layout patterns
+  * Flex container & items
+  * Alignment & spacing
+  * Common layout patterns
 
 - ### Positioning
 
- * Static
- * Relative
- * Absolute
- * Fixed
+  * Static
+  * Relative
+  * Absolute
+  * Fixed
 
 `Responsive Design`
 
 - ### Media Queries
 
- * Mobile-first design
- * Breakpoints
+  * Mobile-first design
+  * Breakpoints
 
 - ### Responsive Units
 
- * %, vw, vh, rem, em
+  * %, vw, vh, rem, em
 
 ---
 

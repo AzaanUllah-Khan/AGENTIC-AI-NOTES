@@ -128,7 +128,7 @@ project-name/
 `Running the FastAPI Server`
 
 ```bash
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 * `--reload` automatically restarts the server on code changes

@@ -166,8 +166,6 @@ def delete_user(name: str):
 
 `Mini Practice Task`
 
-### Task
-
 Create an API with:
 
 * GET → show list of products

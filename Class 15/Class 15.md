@@ -1,175 +1,176 @@
 `What You’ll Learn`
 
-This class teaches you how modern developers work with AI, version control, and deployment tools.
-By the end, you’ll be able to:
-- Talk to AI properly using prompts
-- Understand Git vs GitHub
-- Use basic Git commands
-- Deploy a website using Vercel
-- Clone a website using AI prompts
+In this class, you’ll understand **how APIs work** using **FastAPI** and learn the **4 most important HTTP methods**:
+- GET
+- POST
+- PUT
+- DELETE
 
-### Notes
-
-`Prompt Engineering (Talking to AI Properly)`
-
-### What is a Prompt?
-
-A prompt is the instruction you give to AI.
-
-Bad Prompt
-```
-Make a website
-```
-
-Good Prompt
-```
-Create a responsive landing page using HTML and CSS for a fitness app with a hero section, features, and CTA button.
-```
-
-### Prompt Best Practices
-
-- Be Clear
-- Tell AI exactly what you want.
-
-### Give Context
-
-- Explain who you are and what you need.    
-- `Example:
-```
-You are a frontend developer. Create a simple portfolio website for a beginner student.
-```
-
-### Break Big Tasks into Small Ones
-
-AI works best step-by-step.
-Instead of:
-- `Build Netflix clone`
-
-Do:
-- `Create homepage layout`
-- `Add movie cards`
-- `Style using CSS`
+By the end, you’ll know **when to use which method** and **why it matters**.
 
 ---
 
-`COT, TOT & Temperature`
+`What is FastAPI?`
 
-### COT – Chain of Thought
+**FastAPI** is a Python framework used to:
+- Build APIs
+- Send & receive data
+- Connect frontend with backend
 
-Means: Ask AI to think step by step.
+> Think of FastAPI as a **waiter**
 
-Example: Explain how Git works step by step in simple words.
+---
 
-Best for:
+`What are HTTP Methods?`
 
-- Learning
-- Debugging
-- Understanding logic
-
-### TOT – Tree of Thought
-
-Means: Ask AI to give multiple solutions or paths.
-
-Example: Give me 3 different ways to design a landing page.
-
-Best for:
-
-- Design ideas
-- Brainstorming
-- Creative work
-
-### Temperature
-
-Controls creativity level of AI.
-
-- Low (0.2 – 0.4): Accurate, boring, safe
-- Medium (0.5 – 0.7): Balanced
-- High (0.8 – 1): Creative, risky
-
+HTTP methods define **WHAT ACTION** you want to perform on data.
 Example:
-
-- Write a professional email (low temperature)
-- Write a creative brand slogan (high temperature)
-
----
-
-`Git vs GitHub`
-
-### What is Git?
-
-Git is a tool that runs on your computer. It helps you:
-
-- Save versions of your code
-- Track changes
-- Go back in time if something breaks
-
-> Git = Version control system
-
-### What is GitHub?
-
-GitHub is a website. It helps you:
-- Store your Git projects online
-- Share code with others
-- Work in teams
-
-> GitHub = Online storage for Git projects
-
-### Simple Analogy
-
-Git = Camera (takes snapshots)
-GitHub = Google Drive (stores photos)
+- Get data
+- Add data
+- Update data
+- Delete data
 
 ---
 
-`Git Configuration (One-Time Setup)`
+`GET – Fetch Data`
 
-Before using Git, you must tell it who you are.
+### What does GET do?
 
-- Set Username
-```markdown
-git config --global user.name "[username]"
+GET is used to **READ or FETCH data**.
+> It does **NOT** change anything.
+
+### Real-Life Example
+Opening Instagram feed  
+> You are **getting posts**, not changing them
+
+### FastAPI Example
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/users")
+def get_users():
+    return {"users": ["Ali", "Sara", "Ahmed"]}
+````
+
+> When someone opens `/users`, they receive data.
+
+### ✅ Use GET when:
+
+* You want to read data
+* You want to display information
+* No data change is needed
+
+---
+
+`POST – Send / Create Data`
+
+### What does POST do?
+
+POST is used to **SEND new data** to the server.
+> It **creates something new**.
+
+### Real-Life Example
+
+Signing up on a website
+> You are **sending your name & email**
+
+### FastAPI Example
+
+```python
+@app.post("/create-user")
+def create_user(name: str):
+    return {"message": f"User {name} created"}
 ```
 
-- Set Email
-```markdown
-git config --global user.email "[email]"
-```
+> Data is sent to the server and stored/processed.
 
-> This info appears in your commits.
+### Use POST when:
 
-- Check Git Configuration
-```markdown
-git config --list
-```
+* Creating a new user
+* Submitting a form
+* Sending data to backend
 
 ---
 
-`Vercel Deployment (Put Website Online)`
+`PUT – Update Data`
 
-### What is Vercel?
+### What does PUT do?
 
-Vercel lets you:
-- Deploy websites
-- Share live links
-- Host frontend projects for FREE
+PUT is used to **UPDATE existing data**.
 
-### Used For
+### Real-Life Example
 
-- HTML/CSS
-- React
-- Next.js
+Editing your Instagram bio
+> Data already exists, you are changing it
 
-### Steps to Deploy on Vercel
+### FastAPI Example
 
-- Push your code to GitHub
-- Go to vercel.com
-- Login using GitHub
-- Click New Project
-- Select your repository
-- Click Deploy
-- `🎉 Your website is now live!`
+```python
+@app.put("/update-user")
+def update_user(name: str):
+    return {"message": f"User updated to {name}"}
+```
+
+> Old data is replaced with new data.
+
+### Use PUT when:
+
+* Updating profile info
+* Editing records
+* Changing existing data
 
 ---
 
-`Class Task`
-### Create a clone of Shark Tank Pakistan's website
+`DELETE - Remove Data`
+
+### What does DELETE do?
+
+DELETE removes data from the server.
+
+### Real-Life Example
+
+Deleting a WhatsApp message
+> Message is **gone forever**
+
+### FastAPI Example
+
+```python
+@app.delete("/delete-user")
+def delete_user(name: str):
+    return {"message": f"User {name} deleted"}
+```
+
+> Data is permanently removed.
+
+### Use DELETE when:
+
+* Removing users
+* Deleting posts
+* Clearing records
+
+---
+
+`Quick Comparison Table`
+
+| Method | Action      | Changes Data? | Example Use Case |
+| ------ | ----------- | ------------- | ---------------- |
+| GET    | Read data   | ❌ No          | Fetch users      |
+| POST   | Create data | ✅ Yes         | Signup form      |
+| PUT    | Update data | ✅ Yes         | Edit profile     |
+| DEL    | Delete data | ✅ Yes         | Remove account   |
+
+---
+
+`Mini Practice Task`
+
+### Task
+
+Create an API with:
+
+* GET → show list of products
+* POST → add a product
+* PUT → update product name
+* DELETE → delete a product

@@ -18,6 +18,12 @@ What I've added in my repo:
 - [`Class 08`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2008/Class%2008.md)
 - [`Class 09`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2009/Class%2009.md)
 - [`Class 10`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2010/Class%2010.md)
+- [`Class 10`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2010/Class%2010.md)
+- [`Class 10`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2010/Class%2010.md)
+- [`Class 10`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2010/Class%2010.md)
+- [`Class 10`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2010/Class%2010.md)
+- [`Class 10`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2010/Class%2010.md)
+- [`Class 10`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2010/Class%2010.md)
 
 ### Assignments
 

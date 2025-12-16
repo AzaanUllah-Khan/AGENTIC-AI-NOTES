@@ -22,7 +22,7 @@ Simple example:
 
 `Route vs Endpoint`
 
-### 🔹 Route (Request Address)
+### Route (Request Address)
 A **Route** is the **URL path** where the request is sent.
 
 Example:
@@ -32,9 +32,7 @@ https://example.com/users
 
 > This is the **address**.
 
----
-
-### 🔹 Endpoint (Precise Location)
+### Endpoint (Precise Location)
 
 An **Endpoint** is:
 
@@ -56,26 +54,28 @@ Same route, **different endpoints**.
 
 `API Methods (What Action to Perform)`
 
-> GET - POST - PUT - DELETE are explained in `Class 15`
+> GET - POST - PUT - DELETE ARE EXPLAINED IN [`Class 15`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2015/Class%2015.md)
 
-## 4️⃣ PATCH – Update Part of Data
+`PATCH – Update Part of Data`
 
-### 🔹 What it does
+### What it does
 
 * Updates **only selected fields**
 * Keeps remaining data unchanged
 
-### 🔹 Real-Life Example
+### Real-Life Example
 
 Changing only your profile picture
 (Name, email stay same)
 
-📌 Difference from PUT:
+### Difference from PUT:
 
 * PUT → replaces everything
 * PATCH → updates only what you send
 
-## 🧠 Methods Summary Table
+---
+
+`Methods Summary Table`
 
 | Method | Purpose             | Data Change |
 | ------ | ------------------- | ----------- |
@@ -87,9 +87,9 @@ Changing only your profile picture
 
 ---
 
-## 🌐 What is Fetch?
+`What is Fetch?`
 
-### 🔹 Important Point
+### Important Point
 
 **Fetch is NOT an API method.**
 
@@ -99,11 +99,9 @@ Fetch is a **JavaScript function** used to:
 * Send requests
 * Receive responses
 
-📌 Fetch is used on the **frontend**.
+> Fetch is used on the **frontend**.
 
----
-
-### 🔹 Fetch Example
+### Fetch Example
 
 ```javascript
 fetch("https://example.com/users")
@@ -111,18 +109,4 @@ fetch("https://example.com/users")
   .then(data => console.log(data))
 ```
 
-📌 This fetches data from an API using GET by default.
-
----
-
-### 🔹 Fetch Can Use Any Method
-
-```javascript
-fetch("https://example.com/users", {
-  method: "POST",
-  body: JSON.stringify({ name: "Ali" }),
-  headers: {
-    "Content-Type": "application/json"
-  }
-});
-```
+> This fetches data from an API using GET by default.

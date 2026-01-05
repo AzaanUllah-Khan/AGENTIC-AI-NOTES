@@ -3,11 +3,12 @@
 - Endpoints
 - Tips to Design APIs properly
 
+---
 
 ### What is API Flow?
 
-**API Flow** explains how:
-Frontend → Backend → Database → Backend → Frontend
+- **API Flow** explains how:
+- Frontend → Backend → Database → Backend → Frontend
 
 > It shows the **complete journey of a request**.
 
@@ -30,6 +31,8 @@ Frontend → Backend → Database → Backend → Frontend
 3. Backend checks credentials
 4. Database confirms user
 5. Success or error response returned
+
+---
 
 ### What are Endpoints?
 
@@ -112,6 +115,8 @@ Before writing code:
 
 > Planning saves time.
 
+---
+
 ### Mini Practice Task
 
 Design APIs for a **Blog App**:
@@ -125,6 +130,8 @@ Write:
 
 * Route
 * Method
+
+---
 
 ### Key Takeaways
 

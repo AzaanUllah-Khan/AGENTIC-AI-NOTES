@@ -1,32 +1,18 @@
-````md
-# 📘 Class 19 – API Flow, Endpoints & API Design Tips
-
-*Beginner Friendly • Step-by-Step • Real-Life Understanding*  
-*Ages 14–18*
-
----
-
-## 📌 What We Covered in Class 19
-In this class, we focused on **how APIs actually work in real projects** and **how to design good APIs**.
-
-Topics covered:
+`Topics covered:`
 - API Flow
 - Endpoints
 - Tips to Design APIs properly
 
----
 
-# 🔄 API Flow (How Data Moves)
+### What is API Flow?
 
-## 🧠 What is API Flow?
 **API Flow** explains how:
 Frontend → Backend → Database → Backend → Frontend
 
-📌 It shows the **complete journey of a request**.
+> It shows the **complete journey of a request**.
 
----
+`Step-by-Step API Flow`
 
-## 🔹 Step-by-Step API Flow
 1. User clicks a button (Frontend)
 2. Frontend sends request using Fetch/Axios
 3. API endpoint receives request
@@ -35,30 +21,27 @@ Frontend → Backend → Database → Backend → Frontend
 6. Backend sends response
 7. Frontend shows result to user
 
-📌 This happens in milliseconds.
+> This happens in milliseconds.
 
----
+`Real-Life Example: Login Flow`
 
-## 🏗️ Real-Life Example: Login Flow
 1. User enters email & password
 2. POST request sent to `/login`
 3. Backend checks credentials
 4. Database confirms user
 5. Success or error response returned
 
----
+### What are Endpoints?
 
-# 🎯 What are Endpoints?
+`Definition`
 
-## 📌 Definition
 An **Endpoint** is:
 > A specific URL + a specific HTTP method
 
-📌 Endpoint = Route + Method
+- **Endpoint = Route + Method**
 
----
+`Example`
 
-## 🔹 Example
 ```text
 GET    /users
 POST   /users
@@ -66,28 +49,22 @@ PATCH  /users/{id}
 DELETE /users/{id}
 ````
 
-Same route, different endpoints.
+> Same route, different endpoints.
 
----
-
-## 🧠 Why Endpoints Matter
+`Why Endpoints Matter`
 
 * They define **what actions are allowed**
 * They keep APIs organized
 * They make frontend-backend communication clear
 
----
+### Tips to Design a Good API
 
-# 🧱 Tips to Design a Good API
+`Use Clear & Meaningful Names`
 
-## 1️⃣ Use Clear & Meaningful Names
+- ❌ /getAllUsersData
+- ✅ /users
 
-❌ `/getAllUsersData`
-✅ `/users`
-
----
-
-## 2️⃣ Use Correct HTTP Methods
+`Use Correct HTTP Methods`
 
 * GET → Read
 * POST → Create
@@ -95,18 +72,14 @@ Same route, different endpoints.
 * PATCH → Update part
 * DELETE → Remove
 
-📌 Don’t misuse methods.
+> Don’t misuse methods.
 
----
+`Keep Routes Consistent`
 
-## 3️⃣ Keep Routes Consistent
+- ❌ /user, /usersList, /getUsers
+- ✅ /users
 
-❌ `/user`, `/usersList`, `/getUsers`
-✅ `/users`
-
----
-
-## 4️⃣ Use IDs for Specific Resources
+`Use IDs for Specific Resources`
 
 ```text
 GET /users/5
@@ -114,28 +87,22 @@ PATCH /users/5
 DELETE /users/5
 ```
 
-📌 Makes APIs predictable.
+> Makes APIs predictable.
 
----
+`Don’t Expose Logic in URLs`
 
-## 5️⃣ Don’t Expose Logic in URLs
+- ❌ /deleteUserById
+- ✅ DELETE /users/{id}
 
-❌ `/deleteUserById`
-✅ `DELETE /users/{id}`
-
----
-
-## 6️⃣ Return Meaningful Responses
+`Return Meaningful Responses`
 
 * Success message
 * Error message
 * Status code (200, 404, 401)
 
-📌 Frontend relies on responses.
+> Frontend relies on responses.
 
----
-
-## 7️⃣ Design Before Coding
+`Design Before Coding`
 
 Before writing code:
 
@@ -143,11 +110,9 @@ Before writing code:
 * Identify endpoints
 * Choose methods
 
-📌 Planning saves time.
+> Planning saves time.
 
----
-
-# 🧪 Mini Practice Task
+### Mini Practice Task
 
 Design APIs for a **Blog App**:
 
@@ -161,26 +126,9 @@ Write:
 * Route
 * Method
 
----
-
-## 🎯 Key Takeaways
+### Key Takeaways
 
 * API flow shows how data travels
 * Endpoints define actions
 * Good API design = clean + consistent
 * Always plan APIs before coding
-
----
-
-## 🚀 What’s Next?
-
-Upcoming topics:
-
-* Status codes
-* Authentication
-* Real backend project
-
-**You’re thinking like a backend engineer now 💙**
-
-```
-```

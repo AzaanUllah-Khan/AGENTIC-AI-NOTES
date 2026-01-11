@@ -227,7 +227,7 @@ btn.addEventListener("click", () => {
 
 ---
 
-### Topic 05: React JS
+### Topic 04: React JS
 
 React is a **JavaScript library** for building fast, scalable UI applications.
 

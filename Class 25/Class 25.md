@@ -10,7 +10,7 @@
 
 ### Topic 01: HTML
 
-**Hyper Text Markup Language**
+`Hyper Text Markup Language`
 
 HTML defines the **structure and content** of a website. It tells the browser what each element means (heading, image, form, link, etc.).
 
@@ -102,7 +102,7 @@ HTML defines the **structure and content** of a website. It tells the browser wh
 
 ### Topic 02: CSS
 
-**Cascading Style Sheets**
+`Cascading Style Sheets`
 
 CSS is used to control the **design, layout, colors, spacing, animations and responsiveness** of websites.
 

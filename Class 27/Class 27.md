@@ -1,7 +1,7 @@
 `Topics`
 
 - Fundamentals of LLM (explain LLM, topK,topP in his terms)
-- Tokenization and Embedding
+- Tokenization and Embedding (How it breaks words [explain deeply with examples to clearly understand])
 - System Prompt
 - Knowledge Base
 - Tool Calling

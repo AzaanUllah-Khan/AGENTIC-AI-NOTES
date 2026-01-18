@@ -34,6 +34,7 @@ What I've added in my repo:
 - [`Class 24`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2024/Class%2024.md)
 - [`Class 25`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2025/Class%2025.md)
 - [`Class 26`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2026/Class%2026.md)
+- [`Class 27`](https://github.com/AzaanUllah-Khan/AGENTIC-AI-NOTES/blob/main/Class%2027/Class%2027.md)
 
 ### Assignments
 

@@ -1,6 +1,6 @@
 `Topics`
 
-- Fundamentals of LLM
+- Fundamentals of LLM (explain LLM, topK,topP in his terms)
 - Tokenization and Embedding
 - System Prompt
 - Knowledge Base
